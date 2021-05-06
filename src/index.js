@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CheckboxWithLabel from './components/checkboxWithLabel/checkboxwithlabel';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <CheckboxWithLabel labelOn='On' labelOff='Off' />
   </React.StrictMode>,
   document.getElementById('root')
 );
